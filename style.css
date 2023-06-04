@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#container {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+#display {
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.screen {
+    display: flex;
+    
+    justify-content: end;
+    padding: 2px;
+    
+}
+
+.screen p {
+    font-family: 'Calculator', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    padding-left: auto;
+    
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 35px);
+    margin: 3px;
+}
+
